@@ -1,0 +1,62 @@
+.photo-album h1{
+    color:#E1C340
+}
+
+.user{
+    color:#c97579;
+}
+
+.album-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .album-buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  
+  .album-buttons button {
+    margin: 5px; 
+    padding: 10px 20px; 
+    font-size: 14px;
+    background-color:#A4E8E0 ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .album-buttons button:hover {
+    background-color: #15B5B0; 
+  }
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+  }
+  
+
+  .photo-thumbnail {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .photo-thumbnail img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  

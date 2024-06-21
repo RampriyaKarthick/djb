@@ -11,6 +11,8 @@ const UserList = () => {
       .catch(error => console.error('Error fetching users:', error));
   }, []);
 
+  
+
   return (
     <div className="main-table">
     <h1>User List</h1>
@@ -26,7 +28,8 @@ const UserList = () => {
       <tbody>
         {users.map(user => (
           <tr key={user.id}>
-            <td data-label="Username">{user.username}</td>
+            <td data-label="Username">
+        {user.username}</td>
             <td data-label="Email">{user.email}</td>
             <td data-label="Website">
               <a href={`http://${user.website}`} target="_blank" rel="noopener noreferrer">

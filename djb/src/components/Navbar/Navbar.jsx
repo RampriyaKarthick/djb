@@ -16,9 +16,7 @@ const Navigation = () => {
         {currentPath !== '/' && (
           <Link to="/">UserList</Link>
         )}
-        {currentPath !== '/UserProfile' && (
-          <Link to="/UserProfile">UserProfile</Link>
-        )}
+      
         {currentPath !== '/PhotoAlbum' && (
           <Link to="/PhotoAlbum">PhotoAlbum</Link>
         )}
