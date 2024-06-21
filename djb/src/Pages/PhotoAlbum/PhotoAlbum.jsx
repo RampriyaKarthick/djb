@@ -2,7 +2,8 @@
 
 function PhotoAlbum() {
   return (
-    <div>PhotoAlbum</div>
+    <div>PhotoAlbum
+    </div>
   )
 }
 
