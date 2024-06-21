@@ -1,12 +1,14 @@
+import UserList from "./Pages/UserList/UserList"
 
-import './App.css'
+
 
 function App() {
 
 
   return (
     <>
-   
+ 
+  <UserList/>
     </>
   )
 }

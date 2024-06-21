@@ -2,7 +2,10 @@
 
 function header() {
   return (
-    <div>header</div>
+    <div>
+    
+    <img src="" alt=""></img>
+    </div>
   )
 }
 
